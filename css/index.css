@@ -76,3 +76,14 @@ body {
     transform: translateX(-50%);
     padding-left: 15px
 }
+
+
+/* newIn */
+
+.newIn {
+    text-align: center
+}
+
+.newIn img {
+    width: 100%
+}
