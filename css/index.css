@@ -96,3 +96,33 @@ body {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
     color: #717171;
 }
+
+
+/* comingSoon */
+
+.comingSoon {
+    background-image: url("../img/slide-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comingSoon__start i {
+    font-size: 15px;
+    color: #FBBD61
+}
+
+.comingSoon {
+    position: relative;
+    color: white
+}
+
+.overlay-movie {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
