@@ -48,7 +48,7 @@
                         <a class="nav-link" href="#">NEWS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">CONTACT</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -132,12 +132,12 @@
     <section class="newIn ">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-lg-12">
                     <h2>NEW IN</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <img src="./img/movie-1.jpg" alt="">
                     <p>Lorem, ipsum dolor.</p>
                     <i class="fa fa-star"></i>
@@ -146,7 +146,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <img src="./img/movie-2.jpg" alt="">
                     <p>Lorem, ipsum dolor.</p>
                     <i class="fa fa-star"></i>
@@ -155,7 +155,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <img src="./img/movie-3.jpg" alt="">
                     <p>Lorem, ipsum dolor.</p>
                     <i class="fa fa-star"></i>
@@ -164,7 +164,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <img src="./img/movie-4.jpg" alt="">
                     <p>Lorem, ipsum dolor.</p>
                     <i class="fa fa-star"></i>
@@ -204,12 +204,12 @@
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="mon" role="tabpanel" aria-labelledby="home-tab">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-lg-2 col-md-4 col-12">
                         <a href="#">
                             <img src="./img/movie-6.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
-                    <div class="col-10">
+                    <div class="col-lg-10 col-md-8 col-12">
                         <p>ACTION, ADVENTURE, FANTASY</p>
                         <h3>Its Over</h3>
                         <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
@@ -360,6 +360,68 @@
     <section class="footer">
 
     </section>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                      <option selected>Choose...</option>
+                                      <option>...</option>
+                                    </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                      Check me out
+                                    </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
