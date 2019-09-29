@@ -87,3 +87,12 @@ body {
 .newIn img {
     width: 100%
 }
+
+
+/* showstime */
+
+.tab-pane>.row {
+    padding: 50px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+    color: #717171;
+}
